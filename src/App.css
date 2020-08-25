@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  display: flex;
 }
 
 .App-logo {
@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  background-color:rgba(255, 255, 255, 0.5)
+}
+
+.foodItems{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+
+

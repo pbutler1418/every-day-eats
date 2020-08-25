@@ -24,7 +24,9 @@ function Recipe() {
   return (
     <>
       <h1>Recipes</h1>
-      {foodItems}
+      <div className="foodItems">
+        {foodItems}
+        </div>
     </>
   );
 }

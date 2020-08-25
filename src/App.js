@@ -13,7 +13,7 @@ function App() {
   return (
     <React.Fragment>
       <Navigation />
-      <Layout>
+      <Layout className = "page">
         <Router>
           <Switch>
             <Route exact path="/" component={Home} />
