@@ -4,7 +4,7 @@ function About() {
   return (
     <>
       <h1>About Me</h1>
-      <p>
+      <p className="bio">
         📍NY ✤ dedicated health foodie ✰ sucker for sweets & a killer workout ✰
         balance is key (life & food) ✰ attempting low-fodmap for IBS
       </p>
