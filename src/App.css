@@ -45,7 +45,7 @@ h1{
 
 p{
   font-size: 20px;
-  background-color:rgba(255, 255, 255, 0.5)
+  /* background-color:rgba(255, 255, 255, 0.5) */
 }
 
 .foodItems{
@@ -76,6 +76,7 @@ img{
 
 /* This container is needed to position the front and back side */
 .flip-card-inner {
+
   border-radius: 10%;
   position: relative;
   width: 100%;
@@ -112,6 +113,8 @@ img{
 
 /* Style the back side */
 .flip-card-back {
+  border: 5px solid gold;
+  border-style: ridge;
   border-radius: 10%;
   background-color:transparent;
   /* background-color: dodgerblue; */
@@ -132,3 +135,4 @@ img.card-img-top{
   font-size: 40px;
 }
 
+/* ////// */

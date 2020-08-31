@@ -6,7 +6,6 @@ import Recipe from "./components/Recipe";
 import NoMatch from "./components/NoMatch";
 import Layout from "./components/Layout";
 import Navigation from "./components/Navigation"
-import Jumbotron from "./components/Jumbotron"
 import "./App.css";
 
 function App() {
